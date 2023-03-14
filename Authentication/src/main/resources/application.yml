@@ -1,0 +1,16 @@
+server:
+    port: 8081
+debug: true
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: SYS as SYSDBA
+    password: admin@123
+
+  main:
+    allow-circular-references: true
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update

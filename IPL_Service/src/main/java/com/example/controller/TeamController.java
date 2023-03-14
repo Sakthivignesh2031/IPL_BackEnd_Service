@@ -26,7 +26,7 @@ import lombok.RequiredArgsConstructor;
 
 
 
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin(origins =  "*")
 @RequiredArgsConstructor
 @RestController
 public class TeamController {
